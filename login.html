@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - Shop Online</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body >
+    
+    <div class="login-container">
+        <h2>Đăng Nhập</h2>
+        <form action="process_login.php" method="POST">
+            <label for="username">Tên tài khoản</label>
+            <input type="text" id="username" name="username" required placeholder="Nhập tên tài khoản">
+
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" required placeholder="Nhập mật khẩu">
+
+            <button type="submit">Đăng Nhập</button>
+        </form>
+        <p>Bạn chưa có tài khoản? <a href="register.html"> Đăng ký ngay </a></p>
+    </div>
+</body>
+</html>
